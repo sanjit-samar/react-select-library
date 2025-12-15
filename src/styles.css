@@ -2,3 +2,27 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.Product {
+  width: 100px;
+  padding: 2px;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.Product > p {
+  font-size: 12px;
+  text-align: center
+}
+
+.Product img {
+  width: 100%;
+  height: auto;
+}
